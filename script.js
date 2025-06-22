@@ -104,6 +104,7 @@ const darkToggle = document.createElement("button");
 darkToggle.textContent = "🌓 Toggle Dark Mode";
 darkToggle.style.marginTop = "10px";
 document.querySelector(".search").appendChild(darkToggle);
+document.body.classList.toggle('dark-mode');
 
 darkToggle.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
