@@ -73,7 +73,6 @@ footer p {
   margin: 0;
 }
 
-/* Dark mode styles */
 body.dark-mode {
   color: #e0e0e0;
   background-color: #121212;
