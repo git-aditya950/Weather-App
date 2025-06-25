@@ -99,7 +99,6 @@ function displayWeather(data) {
   document.getElementById("weatherInfo").classList.remove("hidden");
 }
 
-// Dark mode toggle (optional button handler)
 const darkToggle = document.createElement("button");
 darkToggle.textContent = "🌓 Toggle Dark Mode";
 darkToggle.style.marginTop = "10px";
